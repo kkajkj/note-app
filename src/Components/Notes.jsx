@@ -59,7 +59,7 @@ export default function Notes() {
                             id={note.id}
                             text={note.text}
                             editHandler={editHandler}
-                            deleteHandler={deleteHandler}></Note>
+                            deleteHandler={deleteHandler}/>
                 ))
             }
             {
